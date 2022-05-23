@@ -131,179 +131,21 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "noauth"
-				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://www.getpostman.com/collections/d2ec5fea43ff050f8086?{=&\"title\"= \"The Basics - Networking\",&\"description\"= \"Your app fetched this from a remote endpoint!\",&\"movies\"= [&{=&\"id\"= \"1\",&\"title\"= \"Star Wars\",&\"releaseYear\"= \"1977\"&},=&{=&\"id\"= \"2\",&\"title\"= \"Back to the Future\",&\"releaseYear\"= \"1985\"&},=&{=&\"id\"= \"3\",&\"title\"= \"The Matrix\",&\"releaseYear\"= \"1999\"&},=&{=&\"id\"= \"4\",&\"title\"= \"Inception\",&\"releaseYear\"= \"2010\"&},=&{=&\"id\"= \"5\",&\"title\"= \"Interstellar\",&\"releaseYear\"= \"2014\"&}=&]=&}=",
+					"raw": "https://universal-comet-642689.postman.co/workspace/063aea89-78ac-45fd-99c2-c1c0b4a8a096/request/20481624-dfe39b58-951a-470d-be71-c9d8d3fdb540",
 					"protocol": "https",
 					"host": [
-						"www",
-						"getpostman",
-						"com"
+						"universal-comet-642689",
+						"postman",
+						"co"
 					],
 					"path": [
-						"collections",
-						"d2ec5fea43ff050f8086"
-					],
-					"query": [
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"The Basics - Networking\",",
-							"type": "text"
-						},
-						{
-							"key": "\"description\"",
-							"value": " \"Your app fetched this from a remote endpoint!\",",
-							"type": "text"
-						},
-						{
-							"key": "\"movies\"",
-							"value": " [",
-							"type": "text"
-						},
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"id\"",
-							"value": " \"1\",",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"Star Wars\",",
-							"type": "text"
-						},
-						{
-							"key": "\"releaseYear\"",
-							"value": " \"1977\"",
-							"type": "text"
-						},
-						{
-							"key": "},",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"id\"",
-							"value": " \"2\",",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"Back to the Future\",",
-							"type": "text"
-						},
-						{
-							"key": "\"releaseYear\"",
-							"value": " \"1985\"",
-							"type": "text"
-						},
-						{
-							"key": "},",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"id\"",
-							"value": " \"3\",",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"The Matrix\",",
-							"type": "text"
-						},
-						{
-							"key": "\"releaseYear\"",
-							"value": " \"1999\"",
-							"type": "text"
-						},
-						{
-							"key": "},",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"id\"",
-							"value": " \"4\",",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"Inception\",",
-							"type": "text"
-						},
-						{
-							"key": "\"releaseYear\"",
-							"value": " \"2010\"",
-							"type": "text"
-						},
-						{
-							"key": "},",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "{",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "\"id\"",
-							"value": " \"5\",",
-							"type": "text"
-						},
-						{
-							"key": "\"title\"",
-							"value": " \"Interstellar\",",
-							"type": "text"
-						},
-						{
-							"key": "\"releaseYear\"",
-							"value": " \"2014\"",
-							"type": "text"
-						},
-						{
-							"key": "}",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "]",
-							"value": "",
-							"type": "text"
-						},
-						{
-							"key": "}",
-							"value": "",
-							"type": "text"
-						}
+						"workspace",
+						"063aea89-78ac-45fd-99c2-c1c0b4a8a096",
+						"request",
+						"20481624-dfe39b58-951a-470d-be71-c9d8d3fdb540"
 					]
 				}
 			},
