@@ -1,0 +1,336 @@
+{
+	"info": {
+		"_postman_id": "94c72626-251a-486f-8510-8a9ae2c7d517",
+		"name": "Movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Details about a user",
+			"id": "f0d3025b-6e6b-417c-bfd2-1ed9aee6dded",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/user?id=-2092596",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "-2092596",
+							"description": "(Required) ID of the user"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "4ada28ce-f7a6-4bc5-852c-255fcdaa4108",
+					"name": "Details about a user",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-2092596",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-2092596"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "anim consequat enim mollit"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"id\": -3962316,\n  \"name\": \"ex do sint\",\n  \"tag\": \"dolor\"\n}"
+				},
+				{
+					"id": "a41e2d4e-040c-4453-ab74-86f00e9e100a",
+					"name": "unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "Added as a part of security scheme: basic",
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=-2092596",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-2092596"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n  \"code\": -93108709,\n  \"message\": \"minim fugiat laboris\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://www.getpostman.com/collections/d2ec5fea43ff050f8086?{=&\"title\"= \"The Basics - Networking\",&\"description\"= \"Your app fetched this from a remote endpoint!\",&\"movies\"= [&{=&\"id\"= \"1\",&\"title\"= \"Star Wars\",&\"releaseYear\"= \"1977\"&},=&{=&\"id\"= \"2\",&\"tit",
+			"id": "dfe39b58-951a-470d-be71-c9d8d3fdb540",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/d2ec5fea43ff050f8086?{=&\"title\"= \"The Basics - Networking\",&\"description\"= \"Your app fetched this from a remote endpoint!\",&\"movies\"= [&{=&\"id\"= \"1\",&\"title\"= \"Star Wars\",&\"releaseYear\"= \"1977\"&},=&{=&\"id\"= \"2\",&\"title\"= \"Back to the Future\",&\"releaseYear\"= \"1985\"&},=&{=&\"id\"= \"3\",&\"title\"= \"The Matrix\",&\"releaseYear\"= \"1999\"&},=&{=&\"id\"= \"4\",&\"title\"= \"Inception\",&\"releaseYear\"= \"2010\"&},=&{=&\"id\"= \"5\",&\"title\"= \"Interstellar\",&\"releaseYear\"= \"2014\"&}=&]=&}=",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"d2ec5fea43ff050f8086"
+					],
+					"query": [
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"The Basics - Networking\",",
+							"type": "text"
+						},
+						{
+							"key": "\"description\"",
+							"value": " \"Your app fetched this from a remote endpoint!\",",
+							"type": "text"
+						},
+						{
+							"key": "\"movies\"",
+							"value": " [",
+							"type": "text"
+						},
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"id\"",
+							"value": " \"1\",",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"Star Wars\",",
+							"type": "text"
+						},
+						{
+							"key": "\"releaseYear\"",
+							"value": " \"1977\"",
+							"type": "text"
+						},
+						{
+							"key": "},",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"id\"",
+							"value": " \"2\",",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"Back to the Future\",",
+							"type": "text"
+						},
+						{
+							"key": "\"releaseYear\"",
+							"value": " \"1985\"",
+							"type": "text"
+						},
+						{
+							"key": "},",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"id\"",
+							"value": " \"3\",",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"The Matrix\",",
+							"type": "text"
+						},
+						{
+							"key": "\"releaseYear\"",
+							"value": " \"1999\"",
+							"type": "text"
+						},
+						{
+							"key": "},",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"id\"",
+							"value": " \"4\",",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"Inception\",",
+							"type": "text"
+						},
+						{
+							"key": "\"releaseYear\"",
+							"value": " \"2010\"",
+							"type": "text"
+						},
+						{
+							"key": "},",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "{",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "\"id\"",
+							"value": " \"5\",",
+							"type": "text"
+						},
+						{
+							"key": "\"title\"",
+							"value": " \"Interstellar\",",
+							"type": "text"
+						},
+						{
+							"key": "\"releaseYear\"",
+							"value": " \"2014\"",
+							"type": "text"
+						},
+						{
+							"key": "}",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "]",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "}",
+							"value": "",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "f9087675-adea-44ab-9ccd-75f37a7dd36a",
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}
